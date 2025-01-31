@@ -10,7 +10,7 @@ A very basic compatibility matrix for the Saint Seiya Zodiac Signs (Some people 
 - seaborn
 - matplotlib
 
-If you want to save the work, you can only copy the image or download it from the repository.
+If you want to save the work of downloading libraries and running the code, you can only copy the image or download it from the repository.
 
 ## Usage
 

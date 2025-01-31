@@ -1,4 +1,4 @@
-''' A very basic compatibility matrix for the Saint Seiya Zodiac Signs (Other people would say that are zodiac signs) LOL
+''' A very basic compatibility matrix for the Saint Seiya Zodiac Signs (Other people might say they are just zodiac signs LOL)
 Requires: numpy, seaborn, matplotlib, but if you want to save the work, you can only copy the image or download it from the repository.
 '''
 
