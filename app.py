@@ -7,13 +7,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-signos = [
+signs = [
     "Aries", "Tauro", "Gemini", "Cancer", "Leo", "Virgo",
     "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"
 ]
 
 
-elementos = {
+elements = {
     "Aries": "Fire", "Leo": "Fire", "Sagittarius": "Fire",
     "Tauro": "Earth", "Virgo": "Earth", "Capricorn": "Earth",
     "Gemini": "Wind", "Libra": "Wind", "Aquarius": "Wind",
@@ -21,8 +21,8 @@ elementos = {
 }
 
 
-def calcular_compatibilidad(signo1, signo2):
-    elem1, elem2 = elementos[signo1], elementos[signo2]
+def calculate_compatibility(sign1, sign2):
+    elem1, elem2 = elements[sign1], elements[sign2]
 
     if elem1 == elem2:
         return 10  # !!!!
@@ -42,11 +42,11 @@ def calcular_compatibilidad(signo1, signo2):
         return 5  # x
 
 
-compatibilidad = np.array([[calcular_compatibilidad(s1, s2) for s2 in signos] for s1 in signos])
+compatibility = np.array([[calculate_compatibility(s1, s2) for s2 in signs] for s1 in signs])
 
 
 plt.figure(figsize=(7, 7))
-sns.heatmap(compatibilidad, annot=True, cmap="Purples", xticklabels=signos, yticklabels=signos)
+sns.heatmap(compatibility, annot=True, cmap="Purples", xticklabels=signs, yticklabels=signs)
 
 
 plt.title("Saint Seiya Zodiac Compatibility")
