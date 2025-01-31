@@ -1,8 +1,8 @@
 # Saint Seiya Zodiac Compatibility Matrix
 
-![Project image](/Figure_1.png)
+![Project image](/project.png)
 
-A very basic compatibility matrix for the Saint Seiya Zodiac Signs (Other people would say that are zodiac signs) LOL
+A very basic compatibility matrix for the Saint Seiya Zodiac Signs (Some people might say they are just zodiac signs... LOL 😂)
 
 ## Requirements
 
